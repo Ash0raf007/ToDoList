@@ -1,0 +1,85 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding:0;
+}
+body{
+  background-color: darkolivegreen;
+  color: aliceblue;
+}
+
+h1{
+  text-align: center;
+  font-size: 4rem;
+}
+.TAAASK{
+  font-size: 60px;
+  color: rgba(0, 0, 0, 0.527);
+}
+
+.task{
+  margin-top: 30px;
+  margin-inline:auto;
+  margin-bottom: 30px;
+  width: 70vw;
+  background: rgba(255, 255, 255, 0.67);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.1px);
+  -webkit-backdrop-filter: blur(9.1px);
+  border: 1px solid rgba(255, 255, 255, 0.57);
+height: 89px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-between;
+padding: 20px;
+
+}
+.icon{
+  font-size: 22px;
+  
+}
+.icon:hover{
+  font-size: 28px;
+  transition: .25s;
+  cursor: pointer;
+  color: gold;
+  
+}
+h2{
+  text-align: center;
+}
+form{
+  display: flex;
+  justify-content: center;
+  input{
+    width: 300px;
+    height: 30px;
+  }
+}
+.icon-cloud-upload{
+  font-size: 35px;
+
+}
+.icon-cloud-upload:hover{
+  font-size: 43px;
+  color: chartreuse;
+}
+button{
+  all:unset
+}
+
+/* js*/
+
+.dss{
+  display: none;
+}
+.orange{
+  color: orange;
+}
+
+.finsih{
+  text-decoration-line: line-through;
+}
